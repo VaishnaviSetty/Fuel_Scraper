@@ -1,0 +1,1055 @@
+2024-08-16 12:25:56,491 - fuel_price_tracker - INFO - Getting data for following cities : ['New Delhi', 'Hyderabad', 'Kolkata', 'Chennai', 'Mumbai', 'Bangalore']
+2024-08-16 12:25:56,492 - fuel_price_tracker - INFO - Trying to fetch data for city : New Delhi
+2024-08-16 12:25:56,694 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 12:25:56,715 - fuel_price_tracker - ERROR - Something went wrong
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\Fuel Scraping\main_script.py", line 33, in get_data_for_city
+    df["date"] = pd.to_datetime(df["date"])
+                                ~~^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'date'
+2024-08-16 12:25:56,724 - fuel_price_tracker - INFO - Trying to fetch data for city : Hyderabad
+2024-08-16 12:25:56,843 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 12:25:56,846 - fuel_price_tracker - ERROR - Something went wrong
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\Fuel Scraping\main_script.py", line 33, in get_data_for_city
+    df["date"] = pd.to_datetime(df["date"])
+                                ~~^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'date'
+2024-08-16 12:25:56,848 - fuel_price_tracker - INFO - Trying to fetch data for city : Kolkata
+2024-08-16 12:25:56,957 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 12:25:56,959 - fuel_price_tracker - ERROR - Something went wrong
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\Fuel Scraping\main_script.py", line 33, in get_data_for_city
+    df["date"] = pd.to_datetime(df["date"])
+                                ~~^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'date'
+2024-08-16 12:25:56,962 - fuel_price_tracker - INFO - Trying to fetch data for city : Chennai
+2024-08-16 12:25:57,064 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 12:25:57,065 - fuel_price_tracker - ERROR - Something went wrong
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\Fuel Scraping\main_script.py", line 33, in get_data_for_city
+    df["date"] = pd.to_datetime(df["date"])
+                                ~~^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'date'
+2024-08-16 12:25:57,066 - fuel_price_tracker - INFO - Trying to fetch data for city : Mumbai
+2024-08-16 12:25:57,187 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 12:25:57,188 - fuel_price_tracker - ERROR - Something went wrong
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\Fuel Scraping\main_script.py", line 33, in get_data_for_city
+    df["date"] = pd.to_datetime(df["date"])
+                                ~~^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'date'
+2024-08-16 12:25:57,189 - fuel_price_tracker - INFO - Trying to fetch data for city : Bangalore
+2024-08-16 12:25:57,308 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 12:25:57,309 - fuel_price_tracker - ERROR - Something went wrong
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\Fuel Scraping\main_script.py", line 33, in get_data_for_city
+    df["date"] = pd.to_datetime(df["date"])
+                                ~~^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'date'
+2024-08-16 12:25:57,310 - fuel_price_tracker - INFO - Fetched data for all cities
+2024-08-16 12:25:57,313 - fuel_price_tracker - INFO - No data to save
+2024-08-16 12:30:15,757 - fuel_price_tracker - INFO - Getting data for following cities: ['New Delhi', 'Hyderabad', 'Kolkata', 'Chennai', 'Mumbai', 'Bangalore']
+2024-08-16 12:30:15,758 - fuel_price_tracker - INFO - Trying to fetch data for city: New Delhi
+2024-08-16 12:30:16,660 - fuel_price_tracker - INFO - Response code: 500
+2024-08-16 12:30:16,661 - fuel_price_tracker - ERROR - Failed to fetch data for city: New Delhi
+2024-08-16 12:30:16,661 - fuel_price_tracker - INFO - Trying to fetch data for city: Hyderabad
+2024-08-16 12:30:17,542 - fuel_price_tracker - INFO - Response code: 500
+2024-08-16 12:30:17,543 - fuel_price_tracker - ERROR - Failed to fetch data for city: Hyderabad
+2024-08-16 12:30:17,543 - fuel_price_tracker - INFO - Trying to fetch data for city: Kolkata
+2024-08-16 12:30:18,407 - fuel_price_tracker - INFO - Response code: 500
+2024-08-16 12:30:18,407 - fuel_price_tracker - ERROR - Failed to fetch data for city: Kolkata
+2024-08-16 12:30:18,410 - fuel_price_tracker - INFO - Trying to fetch data for city: Chennai
+2024-08-16 12:30:19,276 - fuel_price_tracker - INFO - Response code: 500
+2024-08-16 12:30:19,277 - fuel_price_tracker - ERROR - Failed to fetch data for city: Chennai
+2024-08-16 12:30:19,279 - fuel_price_tracker - INFO - Trying to fetch data for city: Mumbai
+2024-08-16 12:30:20,167 - fuel_price_tracker - INFO - Response code: 500
+2024-08-16 12:30:20,168 - fuel_price_tracker - ERROR - Failed to fetch data for city: Mumbai
+2024-08-16 12:30:20,171 - fuel_price_tracker - INFO - Trying to fetch data for city: Bangalore
+2024-08-16 12:30:21,047 - fuel_price_tracker - INFO - Response code: 500
+2024-08-16 12:30:21,048 - fuel_price_tracker - ERROR - Failed to fetch data for city: Bangalore
+2024-08-16 12:30:21,051 - fuel_price_tracker - INFO - Fetched data for all cities
+2024-08-16 12:35:40,779 - fuel_price_tracker - INFO - Getting data for following cities: ['New Delhi', 'Hyderabad', 'Kolkata', 'Chennai', 'Mumbai', 'Bangalore']
+2024-08-16 12:35:40,779 - fuel_price_tracker - INFO - Trying to fetch data for city: New Delhi
+2024-08-16 12:35:41,677 - fuel_price_tracker - INFO - Response code: 500 for city: New Delhi
+2024-08-16 12:35:41,678 - fuel_price_tracker - ERROR - Failed to fetch data for city: New Delhi. Response code: 500
+2024-08-16 12:35:46,682 - fuel_price_tracker - INFO - Trying to fetch data for city: Hyderabad
+2024-08-16 12:35:47,616 - fuel_price_tracker - INFO - Response code: 500 for city: Hyderabad
+2024-08-16 12:35:47,617 - fuel_price_tracker - ERROR - Failed to fetch data for city: Hyderabad. Response code: 500
+2024-08-16 12:35:52,621 - fuel_price_tracker - INFO - Trying to fetch data for city: Kolkata
+2024-08-16 12:35:53,485 - fuel_price_tracker - INFO - Response code: 500 for city: Kolkata
+2024-08-16 12:35:53,486 - fuel_price_tracker - ERROR - Failed to fetch data for city: Kolkata. Response code: 500
+2024-08-16 12:35:58,488 - fuel_price_tracker - INFO - Trying to fetch data for city: Chennai
+2024-08-16 12:35:59,363 - fuel_price_tracker - INFO - Response code: 500 for city: Chennai
+2024-08-16 12:35:59,364 - fuel_price_tracker - ERROR - Failed to fetch data for city: Chennai. Response code: 500
+2024-08-16 12:36:04,368 - fuel_price_tracker - INFO - Trying to fetch data for city: Mumbai
+2024-08-16 12:36:05,308 - fuel_price_tracker - INFO - Response code: 500 for city: Mumbai
+2024-08-16 12:36:05,308 - fuel_price_tracker - ERROR - Failed to fetch data for city: Mumbai. Response code: 500
+2024-08-16 12:36:10,311 - fuel_price_tracker - INFO - Trying to fetch data for city: Bangalore
+2024-08-16 12:36:11,187 - fuel_price_tracker - INFO - Response code: 500 for city: Bangalore
+2024-08-16 12:36:11,187 - fuel_price_tracker - ERROR - Failed to fetch data for city: Bangalore. Response code: 500
+2024-08-16 12:36:16,192 - fuel_price_tracker - INFO - Fetched data for all cities
+2024-08-16 12:49:32,878 - fuel_price_tracker - INFO - Getting data for following cities: ['New Delhi', 'Hyderabad', 'Kolkata', 'Chennai', 'Mumbai', 'Bangalore']
+2024-08-16 12:49:32,879 - fuel_price_tracker - INFO - Trying to fetch data for city: New Delhi
+2024-08-16 12:49:33,459 - fuel_price_tracker - INFO - Response code: 200 for city: New Delhi
+2024-08-16 12:49:33,461 - fuel_price_tracker - ERROR - Error fetching data for city: New Delhi. Error: Expecting value: line 1 column 1 (char 0)
+2024-08-16 12:49:38,467 - fuel_price_tracker - INFO - Trying to fetch data for city: Hyderabad
+2024-08-16 12:49:38,601 - fuel_price_tracker - INFO - Response code: 200 for city: Hyderabad
+2024-08-16 12:49:38,602 - fuel_price_tracker - ERROR - Error fetching data for city: Hyderabad. Error: Expecting value: line 1 column 1 (char 0)
+2024-08-16 12:49:43,604 - fuel_price_tracker - INFO - Trying to fetch data for city: Kolkata
+2024-08-16 12:49:43,737 - fuel_price_tracker - INFO - Response code: 200 for city: Kolkata
+2024-08-16 12:49:43,739 - fuel_price_tracker - ERROR - Error fetching data for city: Kolkata. Error: Expecting value: line 1 column 1 (char 0)
+2024-08-16 12:49:48,740 - fuel_price_tracker - INFO - Trying to fetch data for city: Chennai
+2024-08-16 12:49:49,024 - fuel_price_tracker - INFO - Response code: 200 for city: Chennai
+2024-08-16 12:49:49,024 - fuel_price_tracker - ERROR - Error fetching data for city: Chennai. Error: Expecting value: line 1 column 1 (char 0)
+2024-08-16 12:49:54,026 - fuel_price_tracker - INFO - Trying to fetch data for city: Mumbai
+2024-08-16 12:49:54,197 - fuel_price_tracker - INFO - Response code: 200 for city: Mumbai
+2024-08-16 12:49:54,198 - fuel_price_tracker - ERROR - Error fetching data for city: Mumbai. Error: Expecting value: line 1 column 1 (char 0)
+2024-08-16 12:49:59,200 - fuel_price_tracker - INFO - Trying to fetch data for city: Bangalore
+2024-08-16 12:49:59,514 - fuel_price_tracker - INFO - Response code: 200 for city: Bangalore
+2024-08-16 12:49:59,515 - fuel_price_tracker - ERROR - Error fetching data for city: Bangalore. Error: Expecting value: line 1 column 1 (char 0)
+2024-08-16 12:50:04,518 - fuel_price_tracker - ERROR - No data to save.
+2024-08-16 12:50:04,519 - fuel_price_tracker - INFO - Fetched data for all cities
+2024-08-16 12:55:21,926 - fuel_price_tracker - INFO - Getting data for the following cities: ['New Delhi', 'Hyderabad', 'Kolkata', 'Chennai', 'Mumbai', 'Bangalore']
+2024-08-16 12:55:21,926 - fuel_price_tracker - INFO - Trying to fetch data for city: New Delhi
+2024-08-16 12:55:22,087 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 12:55:22,140 - fuel_price_tracker - INFO - Got data for New Delhi. Records: 362
+2024-08-16 12:55:22,142 - fuel_price_tracker - INFO - Trying to fetch data for city: Hyderabad
+2024-08-16 12:55:22,434 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 12:55:22,439 - fuel_price_tracker - INFO - Got data for Hyderabad. Records: 363
+2024-08-16 12:55:22,440 - fuel_price_tracker - INFO - Trying to fetch data for city: Kolkata
+2024-08-16 12:55:22,719 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 12:55:22,732 - fuel_price_tracker - INFO - Got data for Kolkata. Records: 342
+2024-08-16 12:55:22,733 - fuel_price_tracker - INFO - Trying to fetch data for city: Chennai
+2024-08-16 12:55:22,981 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 12:55:22,989 - fuel_price_tracker - INFO - Got data for Chennai. Records: 366
+2024-08-16 12:55:22,990 - fuel_price_tracker - INFO - Trying to fetch data for city: Mumbai
+2024-08-16 12:55:23,292 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 12:55:23,306 - fuel_price_tracker - INFO - Got data for Mumbai. Records: 363
+2024-08-16 12:55:23,308 - fuel_price_tracker - INFO - Trying to fetch data for city: Bangalore
+2024-08-16 12:55:23,452 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 12:55:23,460 - fuel_price_tracker - INFO - Got data for Bangalore. Records: 362
+2024-08-16 12:55:23,461 - fuel_price_tracker - INFO - Fetched data for all cities
+2024-08-16 12:55:23,466 - fuel_price_tracker - INFO - Got daily prices for all cities
+2024-08-16 12:55:23,467 - fuel_price_tracker - INFO - Saving data to C:/Users/vaishtir/data
+2024-08-16 12:55:23,867 - fuel_price_tracker - INFO - File saved as: C:/Users/vaishtir/data\daily_fuel_prices_2024-08-16.xlsx
+2024-08-16 12:58:51,009 - fuel_price_tracker - INFO - Today's file already exists. Skipping
+2024-08-16 12:59:31,055 - fuel_price_tracker - INFO - Today's file already exists. Skipping
+2024-08-16 13:00:53,092 - fuel_price_tracker - INFO - Getting data for the following cities: ['New Delhi', 'Hyderabad', 'Kolkata', 'Chennai', 'Mumbai', 'Bangalore']
+2024-08-16 13:00:53,092 - fuel_price_tracker - INFO - Trying to fetch data for city: New Delhi
+2024-08-16 13:00:53,255 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:00:53,276 - fuel_price_tracker - INFO - Got data for New Delhi. Records: 362
+2024-08-16 13:00:53,276 - fuel_price_tracker - INFO - Trying to fetch data for city: Hyderabad
+2024-08-16 13:00:53,375 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:00:53,386 - fuel_price_tracker - INFO - Got data for Hyderabad. Records: 363
+2024-08-16 13:00:53,387 - fuel_price_tracker - INFO - Trying to fetch data for city: Kolkata
+2024-08-16 13:00:53,481 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:00:53,489 - fuel_price_tracker - INFO - Got data for Kolkata. Records: 342
+2024-08-16 13:00:53,490 - fuel_price_tracker - INFO - Trying to fetch data for city: Chennai
+2024-08-16 13:00:53,575 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:00:53,584 - fuel_price_tracker - INFO - Got data for Chennai. Records: 366
+2024-08-16 13:00:53,585 - fuel_price_tracker - INFO - Trying to fetch data for city: Mumbai
+2024-08-16 13:00:53,675 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:00:53,688 - fuel_price_tracker - INFO - Got data for Mumbai. Records: 363
+2024-08-16 13:00:53,688 - fuel_price_tracker - INFO - Trying to fetch data for city: Bangalore
+2024-08-16 13:00:53,779 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:00:53,791 - fuel_price_tracker - INFO - Got data for Bangalore. Records: 362
+2024-08-16 13:00:53,799 - fuel_price_tracker - INFO - Fetched and sorted data for all cities
+2024-08-16 13:00:53,799 - fuel_price_tracker - INFO - Got daily prices for all cities
+2024-08-16 13:00:53,799 - fuel_price_tracker - INFO - Saving data to C:/Users/vaishtir/data
+2024-08-16 13:00:54,027 - fuel_price_tracker - INFO - File saved as: C:/Users/vaishtir/data\daily_fuel_prices_2024-08-16.xlsx
+2024-08-16 13:02:53,931 - fuel_price_tracker - INFO - Getting data for the following cities: ['New Delhi', 'Hyderabad', 'Kolkata', 'Chennai', 'Mumbai', 'Bangalore']
+2024-08-16 13:02:53,932 - fuel_price_tracker - INFO - Trying to fetch data for city: New Delhi
+2024-08-16 13:02:54,183 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:02:54,194 - fuel_price_tracker - INFO - Got data for New Delhi. Records: 362
+2024-08-16 13:02:54,195 - fuel_price_tracker - INFO - Trying to fetch data for city: Hyderabad
+2024-08-16 13:02:54,286 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:02:54,299 - fuel_price_tracker - INFO - Got data for Hyderabad. Records: 363
+2024-08-16 13:02:54,300 - fuel_price_tracker - INFO - Trying to fetch data for city: Kolkata
+2024-08-16 13:02:54,384 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:02:54,395 - fuel_price_tracker - INFO - Got data for Kolkata. Records: 342
+2024-08-16 13:02:54,395 - fuel_price_tracker - INFO - Trying to fetch data for city: Chennai
+2024-08-16 13:02:54,483 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:02:54,490 - fuel_price_tracker - INFO - Got data for Chennai. Records: 366
+2024-08-16 13:02:54,491 - fuel_price_tracker - INFO - Trying to fetch data for city: Mumbai
+2024-08-16 13:02:54,582 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:02:54,597 - fuel_price_tracker - INFO - Got data for Mumbai. Records: 363
+2024-08-16 13:02:54,598 - fuel_price_tracker - INFO - Trying to fetch data for city: Bangalore
+2024-08-16 13:02:54,691 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:02:54,702 - fuel_price_tracker - INFO - Got data for Bangalore. Records: 362
+2024-08-16 13:02:54,704 - fuel_price_tracker - INFO - Fetched and sorted data for all cities
+2024-08-16 13:02:54,705 - fuel_price_tracker - INFO - Got daily prices for all cities
+2024-08-16 13:02:54,705 - fuel_price_tracker - INFO - Saving data to C:/Users/vaishtir/data
+2024-08-16 13:02:54,842 - fuel_price_tracker - ERROR - Something went wrong. Error: [Errno 13] Permission denied: 'C:/Users/vaishtir/data\\daily_fuel_prices_2024-08-16.xlsx'
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\Fuel Scraping\main_script.py", line 89, in fetch_and_save_fuel_prices
+    combined_data.to_excel(file_name, index=False)
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py", line 2417, in to_excel
+    formatter.write(
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\formats\excel.py", line 943, in write
+    writer = ExcelWriter(
+             ^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\excel\_openpyxl.py", line 61, in __init__
+    super().__init__(
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\excel\_base.py", line 1246, in __init__
+    self._handles = get_handle(
+                    ^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:/Users/vaishtir/data\\daily_fuel_prices_2024-08-16.xlsx'
+2024-08-16 13:03:11,758 - fuel_price_tracker - INFO - Getting data for the following cities: ['New Delhi', 'Hyderabad', 'Kolkata', 'Chennai', 'Mumbai', 'Bangalore']
+2024-08-16 13:03:11,758 - fuel_price_tracker - INFO - Trying to fetch data for city: New Delhi
+2024-08-16 13:03:11,854 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:03:11,870 - fuel_price_tracker - INFO - Got data for New Delhi. Records: 362
+2024-08-16 13:03:11,871 - fuel_price_tracker - INFO - Trying to fetch data for city: Hyderabad
+2024-08-16 13:03:11,951 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:03:11,963 - fuel_price_tracker - INFO - Got data for Hyderabad. Records: 363
+2024-08-16 13:03:11,965 - fuel_price_tracker - INFO - Trying to fetch data for city: Kolkata
+2024-08-16 13:03:12,052 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:03:12,075 - fuel_price_tracker - INFO - Got data for Kolkata. Records: 342
+2024-08-16 13:03:12,076 - fuel_price_tracker - INFO - Trying to fetch data for city: Chennai
+2024-08-16 13:03:12,167 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:03:12,187 - fuel_price_tracker - INFO - Got data for Chennai. Records: 366
+2024-08-16 13:03:12,188 - fuel_price_tracker - INFO - Trying to fetch data for city: Mumbai
+2024-08-16 13:03:12,285 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:03:12,301 - fuel_price_tracker - INFO - Got data for Mumbai. Records: 363
+2024-08-16 13:03:12,302 - fuel_price_tracker - INFO - Trying to fetch data for city: Bangalore
+2024-08-16 13:03:12,391 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:03:12,399 - fuel_price_tracker - INFO - Got data for Bangalore. Records: 362
+2024-08-16 13:03:12,401 - fuel_price_tracker - INFO - Fetched and sorted data for all cities
+2024-08-16 13:03:12,402 - fuel_price_tracker - INFO - Got daily prices for all cities
+2024-08-16 13:03:12,402 - fuel_price_tracker - INFO - Saving data to C:/Users/vaishtir/data
+2024-08-16 13:03:12,623 - fuel_price_tracker - INFO - File saved as: C:/Users/vaishtir/data\daily_fuel_prices_2024-08-16.xlsx
+2024-08-16 13:52:23,319 - fuel_price_tracker - INFO - Getting data for the following cities: ['New Delhi', 'Hyderabad', 'Kolkata', 'Chennai', 'Mumbai', 'Bangalore']
+2024-08-16 13:52:23,320 - fuel_price_tracker - INFO - Trying to fetch data for city: New Delhi
+2024-08-16 13:52:23,565 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:52:23,588 - fuel_price_tracker - INFO - Got data for New Delhi. Records: 362
+2024-08-16 13:52:23,589 - fuel_price_tracker - INFO - Trying to fetch data for city: Hyderabad
+2024-08-16 13:52:23,711 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:52:23,724 - fuel_price_tracker - INFO - Got data for Hyderabad. Records: 363
+2024-08-16 13:52:23,724 - fuel_price_tracker - INFO - Trying to fetch data for city: Kolkata
+2024-08-16 13:52:24,028 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:52:24,035 - fuel_price_tracker - INFO - Got data for Kolkata. Records: 342
+2024-08-16 13:52:24,035 - fuel_price_tracker - INFO - Trying to fetch data for city: Chennai
+2024-08-16 13:52:24,165 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:52:24,191 - fuel_price_tracker - INFO - Got data for Chennai. Records: 366
+2024-08-16 13:52:24,192 - fuel_price_tracker - INFO - Trying to fetch data for city: Mumbai
+2024-08-16 13:52:24,308 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:52:24,326 - fuel_price_tracker - INFO - Got data for Mumbai. Records: 363
+2024-08-16 13:52:24,327 - fuel_price_tracker - INFO - Trying to fetch data for city: Bangalore
+2024-08-16 13:52:24,632 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:52:24,643 - fuel_price_tracker - INFO - Got data for Bangalore. Records: 362
+2024-08-16 13:52:24,646 - fuel_price_tracker - INFO - Fetched and sorted data for all cities
+2024-08-16 13:52:24,646 - fuel_price_tracker - INFO - Got daily prices for all cities
+2024-08-16 13:52:24,646 - fuel_price_tracker - INFO - Saving data to C:/Users/vaishtir/data
+2024-08-16 13:52:24,810 - fuel_price_tracker - ERROR - Something went wrong. Error: [Errno 13] Permission denied: 'C:/Users/vaishtir/data\\daily_fuel_prices_2024-08-16.xlsx'
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\Fuel Scraping\main_script.py", line 92, in fetch_and_save_fuel_prices
+    combined_data.to_excel(file_name, index=False)
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py", line 2417, in to_excel
+    formatter.write(
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\formats\excel.py", line 943, in write
+    writer = ExcelWriter(
+             ^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\excel\_openpyxl.py", line 61, in __init__
+    super().__init__(
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\excel\_base.py", line 1246, in __init__
+    self._handles = get_handle(
+                    ^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:/Users/vaishtir/data\\daily_fuel_prices_2024-08-16.xlsx'
+2024-08-16 13:52:46,125 - fuel_price_tracker - INFO - Getting data for the following cities: ['New Delhi', 'Hyderabad', 'Kolkata', 'Chennai', 'Mumbai', 'Bangalore']
+2024-08-16 13:52:46,125 - fuel_price_tracker - INFO - Trying to fetch data for city: New Delhi
+2024-08-16 13:52:46,244 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:52:46,259 - fuel_price_tracker - INFO - Got data for New Delhi. Records: 362
+2024-08-16 13:52:46,260 - fuel_price_tracker - INFO - Trying to fetch data for city: Hyderabad
+2024-08-16 13:52:46,352 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:52:46,368 - fuel_price_tracker - INFO - Got data for Hyderabad. Records: 363
+2024-08-16 13:52:46,369 - fuel_price_tracker - INFO - Trying to fetch data for city: Kolkata
+2024-08-16 13:52:46,459 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:52:46,470 - fuel_price_tracker - INFO - Got data for Kolkata. Records: 342
+2024-08-16 13:52:46,471 - fuel_price_tracker - INFO - Trying to fetch data for city: Chennai
+2024-08-16 13:52:46,562 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:52:46,571 - fuel_price_tracker - INFO - Got data for Chennai. Records: 366
+2024-08-16 13:52:46,572 - fuel_price_tracker - INFO - Trying to fetch data for city: Mumbai
+2024-08-16 13:52:46,668 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:52:46,679 - fuel_price_tracker - INFO - Got data for Mumbai. Records: 363
+2024-08-16 13:52:46,680 - fuel_price_tracker - INFO - Trying to fetch data for city: Bangalore
+2024-08-16 13:52:46,774 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:52:46,789 - fuel_price_tracker - INFO - Got data for Bangalore. Records: 362
+2024-08-16 13:52:46,791 - fuel_price_tracker - INFO - Fetched and sorted data for all cities
+2024-08-16 13:52:46,791 - fuel_price_tracker - INFO - Got daily prices for all cities
+2024-08-16 13:52:46,792 - fuel_price_tracker - INFO - Saving data to C:/Users/vaishtir/data
+2024-08-16 13:52:47,025 - fuel_price_tracker - INFO - File saved as: C:/Users/vaishtir/data\daily_fuel_prices_2024-08-16.xlsx
+2024-08-16 13:56:31,424 - fuel_price_tracker - INFO - Getting data for the following cities: ['New Delhi', 'Hyderabad', 'Kolkata', 'Chennai', 'Mumbai', 'Bangalore']
+2024-08-16 13:56:31,425 - fuel_price_tracker - INFO - Trying to fetch data for city: New Delhi
+2024-08-16 13:56:31,669 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:56:31,685 - fuel_price_tracker - INFO - Got data for New Delhi. Records: 362
+2024-08-16 13:56:31,686 - fuel_price_tracker - INFO - Trying to fetch data for city: Hyderabad
+2024-08-16 13:56:31,774 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:56:31,792 - fuel_price_tracker - INFO - Got data for Hyderabad. Records: 363
+2024-08-16 13:56:31,793 - fuel_price_tracker - INFO - Trying to fetch data for city: Kolkata
+2024-08-16 13:56:31,886 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:56:31,892 - fuel_price_tracker - INFO - Got data for Kolkata. Records: 342
+2024-08-16 13:56:31,893 - fuel_price_tracker - INFO - Trying to fetch data for city: Chennai
+2024-08-16 13:56:31,974 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:56:31,987 - fuel_price_tracker - INFO - Got data for Chennai. Records: 366
+2024-08-16 13:56:31,987 - fuel_price_tracker - INFO - Trying to fetch data for city: Mumbai
+2024-08-16 13:56:32,083 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:56:32,101 - fuel_price_tracker - INFO - Got data for Mumbai. Records: 363
+2024-08-16 13:56:32,102 - fuel_price_tracker - INFO - Trying to fetch data for city: Bangalore
+2024-08-16 13:56:32,190 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 13:56:32,206 - fuel_price_tracker - INFO - Got data for Bangalore. Records: 362
+2024-08-16 13:56:32,208 - fuel_price_tracker - INFO - Fetched and sorted data for all cities
+2024-08-16 13:56:32,209 - fuel_price_tracker - INFO - Got daily prices for all cities
+2024-08-16 13:56:32,210 - fuel_price_tracker - INFO - Saving data to C:/Users/vaishtir/data
+2024-08-16 13:56:32,437 - fuel_price_tracker - INFO - File saved as: C:/Users/vaishtir/data\daily_fuel_prices_2024-08-16.xlsx
+2024-08-16 14:01:06,940 - fuel_price_tracker - INFO - Getting data for the following cities: ['New Delhi', 'Hyderabad', 'Kolkata', 'Chennai', 'Mumbai', 'Bangalore']
+2024-08-16 14:01:06,940 - fuel_price_tracker - INFO - Trying to fetch data for city: New Delhi
+2024-08-16 14:01:07,107 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 14:01:07,115 - fuel_price_tracker - INFO - Got data for New Delhi. Records: 362
+2024-08-16 14:01:07,116 - fuel_price_tracker - INFO - Trying to fetch data for city: Hyderabad
+2024-08-16 14:01:07,196 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 14:01:07,201 - fuel_price_tracker - INFO - Got data for Hyderabad. Records: 363
+2024-08-16 14:01:07,202 - fuel_price_tracker - INFO - Trying to fetch data for city: Kolkata
+2024-08-16 14:01:07,299 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 14:01:07,304 - fuel_price_tracker - INFO - Got data for Kolkata. Records: 342
+2024-08-16 14:01:07,305 - fuel_price_tracker - INFO - Trying to fetch data for city: Chennai
+2024-08-16 14:01:07,390 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 14:01:07,395 - fuel_price_tracker - INFO - Got data for Chennai. Records: 366
+2024-08-16 14:01:07,396 - fuel_price_tracker - INFO - Trying to fetch data for city: Mumbai
+2024-08-16 14:01:07,483 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 14:01:07,488 - fuel_price_tracker - INFO - Got data for Mumbai. Records: 363
+2024-08-16 14:01:07,489 - fuel_price_tracker - INFO - Trying to fetch data for city: Bangalore
+2024-08-16 14:01:07,579 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 14:01:07,584 - fuel_price_tracker - INFO - Got data for Bangalore. Records: 362
+2024-08-16 14:01:07,585 - fuel_price_tracker - INFO - Fetched and sorted data for all cities
+2024-08-16 14:01:07,586 - fuel_price_tracker - INFO - Got daily prices for all cities
+2024-08-16 14:01:07,586 - fuel_price_tracker - INFO - Saving data to C:/Users/vaishtir/data
+2024-08-16 14:01:07,814 - fuel_price_tracker - INFO - File saved as: C:/Users/vaishtir/data\daily_fuel_prices_2024-08-16.xlsx
+2024-08-16 14:07:10,224 - fuel_price_tracker - INFO - Getting data for the following cities: ['New Delhi', 'Hyderabad', 'Kolkata', 'Chennai', 'Mumbai', 'Bangalore']
+2024-08-16 14:07:10,226 - fuel_price_tracker - INFO - Trying to fetch data for city: New Delhi
+2024-08-16 14:07:10,350 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 14:07:10,371 - fuel_price_tracker - INFO - Got data for New Delhi. Records: 362
+2024-08-16 14:07:10,371 - fuel_price_tracker - INFO - Trying to fetch data for city: Hyderabad
+2024-08-16 14:07:10,461 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 14:07:10,481 - fuel_price_tracker - INFO - Got data for Hyderabad. Records: 363
+2024-08-16 14:07:10,482 - fuel_price_tracker - INFO - Trying to fetch data for city: Kolkata
+2024-08-16 14:07:10,598 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 14:07:10,611 - fuel_price_tracker - INFO - Got data for Kolkata. Records: 342
+2024-08-16 14:07:10,612 - fuel_price_tracker - INFO - Trying to fetch data for city: Chennai
+2024-08-16 14:07:10,707 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 14:07:10,733 - fuel_price_tracker - INFO - Got data for Chennai. Records: 366
+2024-08-16 14:07:10,733 - fuel_price_tracker - INFO - Trying to fetch data for city: Mumbai
+2024-08-16 14:07:10,821 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 14:07:10,837 - fuel_price_tracker - INFO - Got data for Mumbai. Records: 363
+2024-08-16 14:07:10,838 - fuel_price_tracker - INFO - Trying to fetch data for city: Bangalore
+2024-08-16 14:07:10,933 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 14:07:10,963 - fuel_price_tracker - INFO - Got data for Bangalore. Records: 362
+2024-08-16 14:07:10,971 - fuel_price_tracker - INFO - Fetched and sorted data for all cities
+2024-08-16 14:07:10,974 - fuel_price_tracker - INFO - Got daily prices for all cities
+2024-08-16 14:07:10,975 - fuel_price_tracker - INFO - Saving data to C:/Users/vaishtir/data
+2024-08-16 14:07:11,225 - fuel_price_tracker - INFO - File saved as: C:/Users/vaishtir/data\daily_fuel_prices_2024-08-16.xlsx
+2024-08-16 14:11:52,503 - fuel_price_tracker - INFO - Getting data for the following cities: ['New Delhi', 'Hyderabad', 'Kolkata', 'Chennai', 'Mumbai', 'Bangalore']
+2024-08-16 14:11:52,503 - fuel_price_tracker - INFO - Trying to fetch data for city: New Delhi
+2024-08-16 14:11:52,634 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 14:11:52,649 - fuel_price_tracker - INFO - Got data for New Delhi. Records: 362
+2024-08-16 14:11:52,650 - fuel_price_tracker - INFO - Trying to fetch data for city: Hyderabad
+2024-08-16 14:11:52,741 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 14:11:52,757 - fuel_price_tracker - INFO - Got data for Hyderabad. Records: 363
+2024-08-16 14:11:52,757 - fuel_price_tracker - INFO - Trying to fetch data for city: Kolkata
+2024-08-16 14:11:52,860 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 14:11:52,877 - fuel_price_tracker - INFO - Got data for Kolkata. Records: 342
+2024-08-16 14:11:52,878 - fuel_price_tracker - INFO - Trying to fetch data for city: Chennai
+2024-08-16 14:11:52,984 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 14:11:52,991 - fuel_price_tracker - INFO - Got data for Chennai. Records: 366
+2024-08-16 14:11:52,992 - fuel_price_tracker - INFO - Trying to fetch data for city: Mumbai
+2024-08-16 14:11:53,076 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 14:11:53,095 - fuel_price_tracker - INFO - Got data for Mumbai. Records: 363
+2024-08-16 14:11:53,096 - fuel_price_tracker - INFO - Trying to fetch data for city: Bangalore
+2024-08-16 14:11:53,188 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 14:11:53,196 - fuel_price_tracker - INFO - Got data for Bangalore. Records: 362
+2024-08-16 14:11:53,198 - fuel_price_tracker - INFO - Fetched and sorted data for all cities
+2024-08-16 14:11:53,199 - fuel_price_tracker - INFO - Got daily prices for all cities
+2024-08-16 14:11:53,199 - fuel_price_tracker - INFO - Saving data to C:/Users/vaishtir/data
+2024-08-16 14:11:53,448 - fuel_price_tracker - INFO - File saved as: C:/Users/vaishtir/data\daily_fuel_prices_2024-08-16.xlsx
+2024-08-16 14:53:10,585 - fuel_price_tracker - INFO - Getting data for the following cities: ['New Delhi', 'Hyderabad', 'Kolkata', 'Chennai', 'Mumbai', 'Bangalore']
+2024-08-16 14:53:10,586 - fuel_price_tracker - INFO - Trying to fetch data for city: New Delhi
+2024-08-16 14:53:10,763 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 14:53:10,790 - fuel_price_tracker - INFO - Got data for New Delhi. Records: 362
+2024-08-16 14:53:10,791 - fuel_price_tracker - INFO - Trying to fetch data for city: Hyderabad
+2024-08-16 14:53:10,908 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 14:53:10,936 - fuel_price_tracker - INFO - Got data for Hyderabad. Records: 363
+2024-08-16 14:53:10,936 - fuel_price_tracker - INFO - Trying to fetch data for city: Kolkata
+2024-08-16 14:53:11,049 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 14:53:11,065 - fuel_price_tracker - INFO - Got data for Kolkata. Records: 342
+2024-08-16 14:53:11,066 - fuel_price_tracker - INFO - Trying to fetch data for city: Chennai
+2024-08-16 14:53:11,170 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 14:53:11,187 - fuel_price_tracker - INFO - Got data for Chennai. Records: 366
+2024-08-16 14:53:11,188 - fuel_price_tracker - INFO - Trying to fetch data for city: Mumbai
+2024-08-16 14:53:11,307 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 14:53:11,333 - fuel_price_tracker - INFO - Got data for Mumbai. Records: 363
+2024-08-16 14:53:11,335 - fuel_price_tracker - INFO - Trying to fetch data for city: Bangalore
+2024-08-16 14:53:11,445 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 14:53:11,466 - fuel_price_tracker - INFO - Got data for Bangalore. Records: 362
+2024-08-16 14:53:11,468 - fuel_price_tracker - INFO - Fetched and sorted data for all cities
+2024-08-16 14:53:11,469 - fuel_price_tracker - INFO - Got daily prices for all cities
+2024-08-16 14:53:11,469 - fuel_price_tracker - INFO - Saving data to C:/Users/vaishtir/data
+2024-08-16 14:53:11,716 - fuel_price_tracker - INFO - File saved as: C:/Users/vaishtir/data\daily_fuel_prices_2024-08-16.xlsx
+2024-08-16 15:06:41,060 - fuel_price_tracker - INFO - Getting data for the following cities: ['New Delhi', 'Hyderabad', 'Kolkata', 'Chennai', 'Mumbai', 'Bangalore']
+2024-08-16 15:06:41,061 - fuel_price_tracker - INFO - Trying to fetch data for city: New Delhi
+2024-08-16 15:06:41,222 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 15:06:41,250 - fuel_price_tracker - INFO - Got data for New Delhi. Records: 362
+2024-08-16 15:06:41,251 - fuel_price_tracker - INFO - Trying to fetch data for city: Hyderabad
+2024-08-16 15:06:41,332 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 15:06:41,345 - fuel_price_tracker - INFO - Got data for Hyderabad. Records: 363
+2024-08-16 15:06:41,346 - fuel_price_tracker - INFO - Trying to fetch data for city: Kolkata
+2024-08-16 15:06:41,442 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 15:06:41,462 - fuel_price_tracker - INFO - Got data for Kolkata. Records: 342
+2024-08-16 15:06:41,462 - fuel_price_tracker - INFO - Trying to fetch data for city: Chennai
+2024-08-16 15:06:41,695 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 15:06:41,706 - fuel_price_tracker - INFO - Got data for Chennai. Records: 366
+2024-08-16 15:06:41,707 - fuel_price_tracker - INFO - Trying to fetch data for city: Mumbai
+2024-08-16 15:06:41,800 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 15:06:41,827 - fuel_price_tracker - INFO - Got data for Mumbai. Records: 363
+2024-08-16 15:06:41,828 - fuel_price_tracker - INFO - Trying to fetch data for city: Bangalore
+2024-08-16 15:06:41,926 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 15:06:41,941 - fuel_price_tracker - INFO - Got data for Bangalore. Records: 362
+2024-08-16 15:06:41,943 - fuel_price_tracker - INFO - Fetched and sorted data for all cities
+2024-08-16 15:06:41,944 - fuel_price_tracker - INFO - Got daily prices for all cities
+2024-08-16 15:06:41,944 - fuel_price_tracker - INFO - Saving data to C:/Users/vaishtir/data
+2024-08-16 15:06:42,187 - fuel_price_tracker - INFO - File saved as: C:/Users/vaishtir/data\daily_fuel_prices_2024-08-16.xlsx
+2024-08-16 15:14:34,596 - fuel_price_tracker - INFO - Job started
+2024-08-16 15:14:34,857 - fuel_price_tracker - INFO - Getting data for the following cities: ['New Delhi', 'Hyderabad', 'Kolkata', 'Chennai', 'Mumbai', 'Bangalore']
+2024-08-16 15:14:34,858 - fuel_price_tracker - INFO - Trying to fetch data for city: New Delhi
+2024-08-16 15:14:35,103 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 15:14:35,118 - fuel_price_tracker - INFO - Got data for New Delhi. Records: 362
+2024-08-16 15:14:35,118 - fuel_price_tracker - INFO - Trying to fetch data for city: Hyderabad
+2024-08-16 15:14:35,216 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 15:14:35,231 - fuel_price_tracker - INFO - Got data for Hyderabad. Records: 363
+2024-08-16 15:14:35,231 - fuel_price_tracker - INFO - Trying to fetch data for city: Kolkata
+2024-08-16 15:14:35,316 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 15:14:35,324 - fuel_price_tracker - INFO - Got data for Kolkata. Records: 342
+2024-08-16 15:14:35,325 - fuel_price_tracker - INFO - Trying to fetch data for city: Chennai
+2024-08-16 15:14:35,415 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 15:14:35,430 - fuel_price_tracker - INFO - Got data for Chennai. Records: 366
+2024-08-16 15:14:35,430 - fuel_price_tracker - INFO - Trying to fetch data for city: Mumbai
+2024-08-16 15:14:35,536 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 15:14:35,555 - fuel_price_tracker - INFO - Got data for Mumbai. Records: 363
+2024-08-16 15:14:35,556 - fuel_price_tracker - INFO - Trying to fetch data for city: Bangalore
+2024-08-16 15:14:35,652 - fuel_price_tracker - INFO - Response code: 200
+2024-08-16 15:14:35,660 - fuel_price_tracker - INFO - Got data for Bangalore. Records: 362
+2024-08-16 15:14:35,662 - fuel_price_tracker - INFO - Fetched and sorted data for all cities
+2024-08-16 15:14:35,773 - fuel_price_tracker - INFO - File saved as: C:/Users/vaishtir/data\daily_fuel_prices_2024-08-16.xlsx
+2024-08-16 15:14:35,774 - fuel_price_tracker - INFO - Job completed
+2024-08-17 03:03:35,951 - fuel_price_tracker - INFO - Job started
+2024-08-17 03:03:36,595 - fuel_price_tracker - INFO - Getting data for the following cities: ['New Delhi', 'Hyderabad', 'Kolkata', 'Chennai', 'Mumbai', 'Bangalore']
+2024-08-17 03:03:36,598 - fuel_price_tracker - INFO - Trying to fetch data for city: New Delhi
+2024-08-17 03:03:37,147 - fuel_price_tracker - INFO - Response code: 200
+2024-08-17 03:03:37,195 - fuel_price_tracker - INFO - Got data for New Delhi. Records: 362
+2024-08-17 03:03:37,195 - fuel_price_tracker - INFO - Trying to fetch data for city: Hyderabad
+2024-08-17 03:03:38,702 - fuel_price_tracker - INFO - Response code: 200
+2024-08-17 03:03:38,722 - fuel_price_tracker - INFO - Got data for Hyderabad. Records: 363
+2024-08-17 03:03:38,722 - fuel_price_tracker - INFO - Trying to fetch data for city: Kolkata
+2024-08-17 03:03:40,073 - fuel_price_tracker - INFO - Response code: 200
+2024-08-17 03:03:40,087 - fuel_price_tracker - INFO - Got data for Kolkata. Records: 342
+2024-08-17 03:03:40,087 - fuel_price_tracker - INFO - Trying to fetch data for city: Chennai
+2024-08-17 03:03:40,285 - fuel_price_tracker - INFO - Response code: 200
+2024-08-17 03:03:40,302 - fuel_price_tracker - INFO - Got data for Chennai. Records: 366
+2024-08-17 03:03:40,302 - fuel_price_tracker - INFO - Trying to fetch data for city: Mumbai
+2024-08-17 03:03:40,405 - fuel_price_tracker - INFO - Response code: 200
+2024-08-17 03:03:40,421 - fuel_price_tracker - INFO - Got data for Mumbai. Records: 363
+2024-08-17 03:03:40,421 - fuel_price_tracker - INFO - Trying to fetch data for city: Bangalore
+2024-08-17 03:03:40,524 - fuel_price_tracker - INFO - Response code: 200
+2024-08-17 03:03:40,540 - fuel_price_tracker - INFO - Got data for Bangalore. Records: 362
+2024-08-17 03:03:40,551 - fuel_price_tracker - INFO - Fetched and sorted data for all cities
+2024-08-17 03:03:40,551 - fuel_price_tracker - INFO - No existing data found. Saving new data.
+2024-08-17 03:03:40,843 - fuel_price_tracker - INFO - File saved as: C:/Users/vaishtir/data\daily_fuel_prices_2024-08-17.xlsx
+2024-08-17 03:03:40,843 - fuel_price_tracker - INFO - Job completed
+2024-08-17 18:09:15,937 - fuel_price_tracker - INFO - Job started
+2024-08-17 18:09:15,937 - fuel_price_tracker - INFO - Getting data for the following cities: ['New Delhi', 'Hyderabad', 'Kolkata', 'Chennai', 'Mumbai', 'Bangalore']
+2024-08-17 18:09:15,937 - fuel_price_tracker - INFO - Trying to fetch data for city: New Delhi
+2024-08-17 18:09:16,129 - fuel_price_tracker - INFO - Response code: 200
+2024-08-17 18:09:16,157 - fuel_price_tracker - INFO - Got data for New Delhi. Records: 362
+2024-08-17 18:09:16,157 - fuel_price_tracker - INFO - Trying to fetch data for city: Hyderabad
+2024-08-17 18:09:16,323 - fuel_price_tracker - INFO - Response code: 200
+2024-08-17 18:09:16,359 - fuel_price_tracker - INFO - Got data for Hyderabad. Records: 363
+2024-08-17 18:09:16,359 - fuel_price_tracker - INFO - Trying to fetch data for city: Kolkata
+2024-08-17 18:09:16,742 - fuel_price_tracker - INFO - Response code: 200
+2024-08-17 18:09:16,759 - fuel_price_tracker - INFO - Got data for Kolkata. Records: 342
+2024-08-17 18:09:16,759 - fuel_price_tracker - INFO - Trying to fetch data for city: Chennai
+2024-08-17 18:09:17,123 - fuel_price_tracker - INFO - Response code: 200
+2024-08-17 18:09:17,140 - fuel_price_tracker - INFO - Got data for Chennai. Records: 366
+2024-08-17 18:09:17,141 - fuel_price_tracker - INFO - Trying to fetch data for city: Mumbai
+2024-08-17 18:09:17,641 - fuel_price_tracker - INFO - Response code: 200
+2024-08-17 18:09:17,649 - fuel_price_tracker - INFO - Got data for Mumbai. Records: 363
+2024-08-17 18:09:17,649 - fuel_price_tracker - INFO - Trying to fetch data for city: Bangalore
+2024-08-17 18:09:17,936 - fuel_price_tracker - INFO - Response code: 200
+2024-08-17 18:09:17,955 - fuel_price_tracker - INFO - Got data for Bangalore. Records: 362
+2024-08-17 18:09:17,959 - fuel_price_tracker - INFO - Fetched and sorted data for all cities
+2024-08-17 18:09:18,720 - fuel_price_tracker - INFO - File saved as: C:/Users/vaishtir/data\daily_fuel_prices_2024-08-17.xlsx
+2024-08-17 18:09:18,728 - fuel_price_tracker - INFO - Job completed
+2024-08-17 18:14:09,506 - fuel_price_tracker - INFO - Job started
+2024-08-17 18:14:09,506 - fuel_price_tracker - INFO - Getting data for the following cities: ['New Delhi', 'Hyderabad', 'Kolkata', 'Chennai', 'Mumbai', 'Bangalore']
+2024-08-17 18:14:09,506 - fuel_price_tracker - INFO - Trying to fetch data for city: New Delhi
+2024-08-17 18:14:09,562 - fuel_price_tracker - INFO - Response code: 200
+2024-08-17 18:14:09,570 - fuel_price_tracker - INFO - Got data for New Delhi. Records: 362
+2024-08-17 18:14:09,570 - fuel_price_tracker - INFO - Trying to fetch data for city: Hyderabad
+2024-08-17 18:14:09,666 - fuel_price_tracker - INFO - Response code: 200
+2024-08-17 18:14:09,707 - fuel_price_tracker - INFO - Got data for Hyderabad. Records: 363
+2024-08-17 18:14:09,707 - fuel_price_tracker - INFO - Trying to fetch data for city: Kolkata
+2024-08-17 18:14:09,771 - fuel_price_tracker - INFO - Response code: 200
+2024-08-17 18:14:09,787 - fuel_price_tracker - INFO - Got data for Kolkata. Records: 342
+2024-08-17 18:14:09,787 - fuel_price_tracker - INFO - Trying to fetch data for city: Chennai
+2024-08-17 18:14:10,168 - fuel_price_tracker - INFO - Response code: 200
+2024-08-17 18:14:10,208 - fuel_price_tracker - INFO - Got data for Chennai. Records: 366
+2024-08-17 18:14:10,208 - fuel_price_tracker - INFO - Trying to fetch data for city: Mumbai
+2024-08-17 18:14:10,256 - fuel_price_tracker - INFO - Response code: 200
+2024-08-17 18:14:10,280 - fuel_price_tracker - INFO - Got data for Mumbai. Records: 363
+2024-08-17 18:14:10,280 - fuel_price_tracker - INFO - Trying to fetch data for city: Bangalore
+2024-08-17 18:14:10,320 - fuel_price_tracker - INFO - Response code: 200
+2024-08-17 18:14:10,337 - fuel_price_tracker - INFO - Got data for Bangalore. Records: 362
+2024-08-17 18:14:10,345 - fuel_price_tracker - INFO - Fetched and sorted data for all cities
+2024-08-17 18:14:10,667 - fuel_price_tracker - ERROR - Something went wrong. Error: [Errno 13] Permission denied: 'C:/Users/vaishtir/data\\daily_fuel_prices_2024-08-17.xlsx'
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\Fuel Scraping\main_script.py", line 88, in fetch_and_save_fuel_prices
+    combined_data.to_excel(file_name, index=False)
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py", line 2417, in to_excel
+    formatter.write(
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\formats\excel.py", line 943, in write
+    writer = ExcelWriter(
+             ^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\excel\_openpyxl.py", line 61, in __init__
+    super().__init__(
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\excel\_base.py", line 1246, in __init__
+    self._handles = get_handle(
+                    ^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:/Users/vaishtir/data\\daily_fuel_prices_2024-08-17.xlsx'
+2024-08-17 18:14:10,691 - fuel_price_tracker - INFO - Job completed
+2024-08-17 18:14:40,497 - fuel_price_tracker - INFO - Job started
+2024-08-17 18:14:40,497 - fuel_price_tracker - INFO - Getting data for the following cities: ['New Delhi', 'Hyderabad', 'Kolkata', 'Chennai', 'Mumbai', 'Bangalore']
+2024-08-17 18:14:40,497 - fuel_price_tracker - INFO - Trying to fetch data for city: New Delhi
+2024-08-17 18:14:40,586 - fuel_price_tracker - INFO - Response code: 200
+2024-08-17 18:14:40,610 - fuel_price_tracker - INFO - Got data for New Delhi. Records: 362
+2024-08-17 18:14:40,610 - fuel_price_tracker - INFO - Trying to fetch data for city: Hyderabad
+2024-08-17 18:14:40,642 - fuel_price_tracker - INFO - Response code: 200
+2024-08-17 18:14:40,658 - fuel_price_tracker - INFO - Got data for Hyderabad. Records: 363
+2024-08-17 18:14:40,658 - fuel_price_tracker - INFO - Trying to fetch data for city: Kolkata
+2024-08-17 18:14:40,691 - fuel_price_tracker - INFO - Response code: 200
+2024-08-17 18:14:40,703 - fuel_price_tracker - INFO - Got data for Kolkata. Records: 342
+2024-08-17 18:14:40,703 - fuel_price_tracker - INFO - Trying to fetch data for city: Chennai
+2024-08-17 18:14:40,730 - fuel_price_tracker - INFO - Response code: 200
+2024-08-17 18:14:40,746 - fuel_price_tracker - INFO - Got data for Chennai. Records: 366
+2024-08-17 18:14:40,746 - fuel_price_tracker - INFO - Trying to fetch data for city: Mumbai
+2024-08-17 18:14:40,802 - fuel_price_tracker - INFO - Response code: 200
+2024-08-17 18:14:40,818 - fuel_price_tracker - INFO - Got data for Mumbai. Records: 363
+2024-08-17 18:14:40,818 - fuel_price_tracker - INFO - Trying to fetch data for city: Bangalore
+2024-08-17 18:14:40,850 - fuel_price_tracker - INFO - Response code: 200
+2024-08-17 18:14:40,866 - fuel_price_tracker - INFO - Got data for Bangalore. Records: 362
+2024-08-17 18:14:40,873 - fuel_price_tracker - INFO - Fetched and sorted data for all cities
+2024-08-17 18:14:41,493 - fuel_price_tracker - INFO - File saved as: C:/Users/vaishtir/data\daily_fuel_prices_2024-08-17.xlsx
+2024-08-17 18:14:41,493 - fuel_price_tracker - INFO - Job completed
+2024-08-18 00:41:43,273 - fuel_price_tracker - INFO - Job started
+2024-08-18 00:41:43,378 - fuel_price_tracker - INFO - Getting data for the following cities: ['New Delhi', 'Hyderabad', 'Kolkata', 'Chennai', 'Mumbai', 'Bangalore']
+2024-08-18 00:41:43,667 - fuel_price_tracker - INFO - Trying to fetch data for city: New Delhi
+2024-08-18 00:41:43,805 - fuel_price_tracker - ERROR - Error fetching data for city: New Delhi. Error: HTTPSConnectionPool(host='www.livemint.com', port=443): Max retries exceeded with url: /api/cms/fuelprice/gethistoricaldata/city/diesel/new-delhi/365 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000297833C3860>: Failed to resolve 'www.livemint.com' ([Errno 11001] getaddrinfo failed)"))
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 615, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 203, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x00000297833C3860>: Failed to resolve 'www.livemint.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.livemint.com', port=443): Max retries exceeded with url: /api/cms/fuelprice/gethistoricaldata/city/diesel/new-delhi/365 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000297833C3860>: Failed to resolve 'www.livemint.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\Fuel Scraping\main_script.py", line 22, in get_data_for_city
+    response = requests.get(url)
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.livemint.com', port=443): Max retries exceeded with url: /api/cms/fuelprice/gethistoricaldata/city/diesel/new-delhi/365 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000297833C3860>: Failed to resolve 'www.livemint.com' ([Errno 11001] getaddrinfo failed)"))
+2024-08-18 00:41:43,937 - fuel_price_tracker - INFO - Trying to fetch data for city: Hyderabad
+2024-08-18 00:41:44,010 - fuel_price_tracker - ERROR - Error fetching data for city: Hyderabad. Error: HTTPSConnectionPool(host='www.livemint.com', port=443): Max retries exceeded with url: /api/cms/fuelprice/gethistoricaldata/city/diesel/hyderabad/365 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000029783ABA930>: Failed to resolve 'www.livemint.com' ([Errno 11001] getaddrinfo failed)"))
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 615, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 203, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x0000029783ABA930>: Failed to resolve 'www.livemint.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.livemint.com', port=443): Max retries exceeded with url: /api/cms/fuelprice/gethistoricaldata/city/diesel/hyderabad/365 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000029783ABA930>: Failed to resolve 'www.livemint.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\Fuel Scraping\main_script.py", line 22, in get_data_for_city
+    response = requests.get(url)
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.livemint.com', port=443): Max retries exceeded with url: /api/cms/fuelprice/gethistoricaldata/city/diesel/hyderabad/365 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000029783ABA930>: Failed to resolve 'www.livemint.com' ([Errno 11001] getaddrinfo failed)"))
+2024-08-18 00:41:44,477 - fuel_price_tracker - INFO - Trying to fetch data for city: Kolkata
+2024-08-18 00:41:44,561 - fuel_price_tracker - ERROR - Error fetching data for city: Kolkata. Error: HTTPSConnectionPool(host='www.livemint.com', port=443): Max retries exceeded with url: /api/cms/fuelprice/gethistoricaldata/city/diesel/kolkata/365 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000029783D66870>: Failed to resolve 'www.livemint.com' ([Errno 11001] getaddrinfo failed)"))
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 615, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 203, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x0000029783D66870>: Failed to resolve 'www.livemint.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.livemint.com', port=443): Max retries exceeded with url: /api/cms/fuelprice/gethistoricaldata/city/diesel/kolkata/365 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000029783D66870>: Failed to resolve 'www.livemint.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\Fuel Scraping\main_script.py", line 22, in get_data_for_city
+    response = requests.get(url)
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.livemint.com', port=443): Max retries exceeded with url: /api/cms/fuelprice/gethistoricaldata/city/diesel/kolkata/365 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000029783D66870>: Failed to resolve 'www.livemint.com' ([Errno 11001] getaddrinfo failed)"))
+2024-08-18 00:41:44,578 - fuel_price_tracker - INFO - Trying to fetch data for city: Chennai
+2024-08-18 00:41:44,609 - fuel_price_tracker - ERROR - Error fetching data for city: Chennai. Error: HTTPSConnectionPool(host='www.livemint.com', port=443): Max retries exceeded with url: /api/cms/fuelprice/gethistoricaldata/city/diesel/chennai/365 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000029783D670B0>: Failed to resolve 'www.livemint.com' ([Errno 11001] getaddrinfo failed)"))
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 615, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 203, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x0000029783D670B0>: Failed to resolve 'www.livemint.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.livemint.com', port=443): Max retries exceeded with url: /api/cms/fuelprice/gethistoricaldata/city/diesel/chennai/365 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000029783D670B0>: Failed to resolve 'www.livemint.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\Fuel Scraping\main_script.py", line 22, in get_data_for_city
+    response = requests.get(url)
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.livemint.com', port=443): Max retries exceeded with url: /api/cms/fuelprice/gethistoricaldata/city/diesel/chennai/365 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000029783D670B0>: Failed to resolve 'www.livemint.com' ([Errno 11001] getaddrinfo failed)"))
+2024-08-18 00:41:44,707 - fuel_price_tracker - INFO - Trying to fetch data for city: Mumbai
+2024-08-18 00:41:44,740 - fuel_price_tracker - ERROR - Error fetching data for city: Mumbai. Error: HTTPSConnectionPool(host='www.livemint.com', port=443): Max retries exceeded with url: /api/cms/fuelprice/gethistoricaldata/city/diesel/mumbai/365 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000029783D678C0>: Failed to resolve 'www.livemint.com' ([Errno 11001] getaddrinfo failed)"))
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 615, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 203, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x0000029783D678C0>: Failed to resolve 'www.livemint.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.livemint.com', port=443): Max retries exceeded with url: /api/cms/fuelprice/gethistoricaldata/city/diesel/mumbai/365 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000029783D678C0>: Failed to resolve 'www.livemint.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\Fuel Scraping\main_script.py", line 22, in get_data_for_city
+    response = requests.get(url)
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.livemint.com', port=443): Max retries exceeded with url: /api/cms/fuelprice/gethistoricaldata/city/diesel/mumbai/365 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000029783D678C0>: Failed to resolve 'www.livemint.com' ([Errno 11001] getaddrinfo failed)"))
+2024-08-18 00:41:44,752 - fuel_price_tracker - INFO - Trying to fetch data for city: Bangalore
+2024-08-18 00:41:44,795 - fuel_price_tracker - ERROR - Error fetching data for city: Bangalore. Error: HTTPSConnectionPool(host='www.livemint.com', port=443): Max retries exceeded with url: /api/cms/fuelprice/gethistoricaldata/city/diesel/bangalore/365 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000029783D675F0>: Failed to resolve 'www.livemint.com' ([Errno 11001] getaddrinfo failed)"))
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 615, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 203, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x0000029783D675F0>: Failed to resolve 'www.livemint.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.livemint.com', port=443): Max retries exceeded with url: /api/cms/fuelprice/gethistoricaldata/city/diesel/bangalore/365 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000029783D675F0>: Failed to resolve 'www.livemint.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vaishtir\Fuel Scraping\main_script.py", line 22, in get_data_for_city
+    response = requests.get(url)
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vaishtir\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.livemint.com', port=443): Max retries exceeded with url: /api/cms/fuelprice/gethistoricaldata/city/diesel/bangalore/365 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000029783D675F0>: Failed to resolve 'www.livemint.com' ([Errno 11001] getaddrinfo failed)"))
+2024-08-18 00:41:44,854 - fuel_price_tracker - INFO - No data fetched for any city
+2024-08-18 00:41:44,878 - fuel_price_tracker - INFO - No new data fetched.
+2024-08-18 00:41:44,889 - fuel_price_tracker - INFO - Job completed
+2024-08-19 08:25:33,070 - fuel_price_tracker - INFO - Job started
+2024-08-19 08:25:33,074 - fuel_price_tracker - INFO - Getting data for the following cities: ['New Delhi', 'Hyderabad', 'Kolkata', 'Chennai', 'Mumbai', 'Bangalore']
+2024-08-19 08:25:33,075 - fuel_price_tracker - INFO - Trying to fetch data for city: New Delhi
+2024-08-19 08:25:33,479 - fuel_price_tracker - INFO - Response code: 200
+2024-08-19 08:25:33,555 - fuel_price_tracker - INFO - Got data for New Delhi. Records: 362
+2024-08-19 08:25:33,556 - fuel_price_tracker - INFO - Trying to fetch data for city: Hyderabad
+2024-08-19 08:25:33,842 - fuel_price_tracker - INFO - Response code: 200
+2024-08-19 08:25:33,855 - fuel_price_tracker - INFO - Got data for Hyderabad. Records: 363
+2024-08-19 08:25:33,856 - fuel_price_tracker - INFO - Trying to fetch data for city: Kolkata
+2024-08-19 08:25:34,238 - fuel_price_tracker - INFO - Response code: 200
+2024-08-19 08:25:34,253 - fuel_price_tracker - INFO - Got data for Kolkata. Records: 342
+2024-08-19 08:25:34,254 - fuel_price_tracker - INFO - Trying to fetch data for city: Chennai
+2024-08-19 08:25:34,778 - fuel_price_tracker - INFO - Response code: 200
+2024-08-19 08:25:34,790 - fuel_price_tracker - INFO - Got data for Chennai. Records: 366
+2024-08-19 08:25:34,791 - fuel_price_tracker - INFO - Trying to fetch data for city: Mumbai
+2024-08-19 08:25:34,916 - fuel_price_tracker - INFO - Response code: 200
+2024-08-19 08:25:34,928 - fuel_price_tracker - INFO - Got data for Mumbai. Records: 363
+2024-08-19 08:25:34,928 - fuel_price_tracker - INFO - Trying to fetch data for city: Bangalore
+2024-08-19 08:25:35,162 - fuel_price_tracker - INFO - Response code: 200
+2024-08-19 08:25:35,175 - fuel_price_tracker - INFO - Got data for Bangalore. Records: 362
+2024-08-19 08:25:35,181 - fuel_price_tracker - INFO - Fetched and sorted data for all cities
+2024-08-19 08:25:35,510 - fuel_price_tracker - INFO - File saved as: C:/Users/vaishtir/data\daily_fuel_prices_2024-08-19.xlsx
+2024-08-19 08:25:35,511 - fuel_price_tracker - INFO - Job completed
+2024-08-20 05:32:16,700 - fuel_price_tracker - INFO - Job started
+2024-08-20 05:32:16,816 - fuel_price_tracker - INFO - Getting data for the following cities: ['New Delhi', 'Hyderabad', 'Kolkata', 'Chennai', 'Mumbai', 'Bangalore']
+2024-08-20 05:32:16,816 - fuel_price_tracker - INFO - Trying to fetch data for city: New Delhi
+2024-08-20 05:32:20,805 - fuel_price_tracker - INFO - Response code: 200
+2024-08-20 05:32:20,891 - fuel_price_tracker - INFO - Got data for New Delhi. Records: 362
+2024-08-20 05:32:20,891 - fuel_price_tracker - INFO - Trying to fetch data for city: Hyderabad
+2024-08-20 05:32:21,197 - fuel_price_tracker - INFO - Response code: 200
+2024-08-20 05:32:21,239 - fuel_price_tracker - INFO - Got data for Hyderabad. Records: 363
+2024-08-20 05:32:21,241 - fuel_price_tracker - INFO - Trying to fetch data for city: Kolkata
+2024-08-20 05:32:21,601 - fuel_price_tracker - INFO - Response code: 200
+2024-08-20 05:32:21,619 - fuel_price_tracker - INFO - Got data for Kolkata. Records: 342
+2024-08-20 05:32:21,620 - fuel_price_tracker - INFO - Trying to fetch data for city: Chennai
+2024-08-20 05:32:21,933 - fuel_price_tracker - INFO - Response code: 200
+2024-08-20 05:32:21,946 - fuel_price_tracker - INFO - Got data for Chennai. Records: 366
+2024-08-20 05:32:21,946 - fuel_price_tracker - INFO - Trying to fetch data for city: Mumbai
+2024-08-20 05:32:22,079 - fuel_price_tracker - INFO - Response code: 200
+2024-08-20 05:32:22,087 - fuel_price_tracker - INFO - Got data for Mumbai. Records: 363
+2024-08-20 05:32:22,087 - fuel_price_tracker - INFO - Trying to fetch data for city: Bangalore
+2024-08-20 05:32:22,369 - fuel_price_tracker - INFO - Response code: 200
+2024-08-20 05:32:22,378 - fuel_price_tracker - INFO - Got data for Bangalore. Records: 362
+2024-08-20 05:32:22,386 - fuel_price_tracker - INFO - Fetched and sorted data for all cities
+2024-08-20 05:32:22,606 - fuel_price_tracker - INFO - File saved as: C:/Users/vaishtir/data\daily_fuel_prices_2024-08-20.xlsx
+2024-08-20 05:32:22,606 - fuel_price_tracker - INFO - Job completed
